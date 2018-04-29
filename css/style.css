@@ -1,0 +1,39 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.parent{
+    position: relative;
+    height: 650px;
+}
+.common{
+    height: 200px;
+    width: 200px;
+    border: 1px solid black;
+    position: absolute;
+}
+.left-top{
+    background-color: aqua;
+    left: 0;
+}
+.right-top{
+    background-color: aqua;
+    right: 0;
+}
+.center{
+    background-color: bisque;
+    margin: 0 auto;
+    left: 0;
+    right: 0;
+    margin-top: 230px;
+}
+.left-bottom{
+    background-color: blueviolet;
+    left: 0;
+    bottom: 0;
+}
+.right-bottom{
+    background-color: blueviolet;
+    right: 0;
+    bottom: 0;
+}
